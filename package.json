@@ -1,0 +1,16 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc" : "rm -rf dist/ && tsc",
+    "ts"  : "rm -rf dist && tsc -w",
+    "dev" : "nodemon ./dist/class.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
